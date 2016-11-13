@@ -11,11 +11,14 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'bootstrap_form'
 gem 'bcrypt-ruby'
+gem 'fabrication'
+gem 'faker'
 
 group :development do
   gem 'thin'
   gem "better_errors"
   gem "binding_of_caller"
+  gem 'letter_opener'
 end
 
 group :development, :test do
@@ -28,6 +31,8 @@ group :test do
   gem 'database_cleaner', '1.4.1'
   gem 'shoulda-matchers', '2.7.0'
   gem 'vcr', '2.9.3'
+  gem 'capybara'
+  gem 'launchy'
 end
 
 group :production do
