@@ -83,6 +83,9 @@ GEM
       addressable (~> 2.3)
     letter_opener (1.4.1)
       launchy (~> 2.2)
+    letter_opener_web (1.2.3)
+      letter_opener (~> 1.0)
+      rails (>= 3.2)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -195,6 +198,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   letter_opener
+  letter_opener_web (~> 1.2.0)
   pg
   pry
   pry-nav
@@ -206,9 +210,3 @@ DEPENDENCIES
   thin
   uglifier
   vcr (= 2.9.3)
-
-RUBY VERSION
-   ruby 2.1.2p95
-
-BUNDLED WITH
-   1.12.5
